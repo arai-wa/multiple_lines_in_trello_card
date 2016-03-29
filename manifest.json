@@ -1,0 +1,14 @@
+{
+   "content_scripts": [ {
+      "js": [ "scripts.js" ],
+      "matches": [ "https://trello.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "This is an extension for Trello. You can write multiple lines in the title of cards. Input double spaces, and this extension replaces them to a line break.",
+   "icons": {
+      "128": "icon_128.png"
+   },
+   "manifest_version": 2,
+   "name": "Multiple Lines in Trello Card",
+   "version": "0.1.0"
+}
